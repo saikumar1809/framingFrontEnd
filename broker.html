@@ -1,0 +1,145 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="static/js/broker.js"></script>
+        <link rel="stylesheet" href="static/css/header.css">
+        <link rel="stylesheet" href="static/css/left-menu.css">
+        <link rel="stylesheet" href="static\css\broker.css">
+        <title>Broker</title>
+    </head>
+    <body>
+        <header>
+            <div id="header-container">
+            <div>
+                <img src="static/icons/crown.svg " alt="crown logo">
+                <h2><span id="first-letter">F</span>ARM<span>KING</span></h2>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">logout</a></li>
+                </ul>
+            </div>
+        </div>
+        </header>
+        <section>
+            
+            <div id="left-menu">
+                    <div>
+                        <h3>FARMER</h3>
+                        <ul>
+                            <li><a href="#" onclick="displayForm(1,1)">ADD FARMER</a></li>
+                            <li><a href="#" onclick="displayForm(1,2)">VIEW FARMER</a></li>
+                            <li><a href="#" onclick="displayForm(1,3)">DELETE FARMER</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>BUYER</h3>
+                        <ul>
+                            <li><a href="#"onclick="displayForm(2,1)">VIEW BUYER</a></li>
+                             </ul>
+                    </div>
+                    
+                    <div>
+                        <h3>CROP</h3>
+                        <ul>
+                            <li><a href="#" onclick="displayForm(3,1)">ADD NEW CROP</a></li>
+                            <li><a href="#" onclick="displayForm(3,2)">VIEW CROPS</a></li>
+                            <li><a href="#" onclick="displayForm(3,3)">DELETE CROP</a></li>
+                        </ul>
+                    </div>
+                    
+            </div>
+            
+            <div id="search-bar">
+                <input type="text" >
+                <img src="static/icons/search.svg" alt="search icon">
+                <input type="button" value="search" id="main-search">
+    
+            </div>
+
+            <div id="left-menu-functions">
+                <div id="farmer-functions">
+                    <form action="" id="add-farmer">
+                        <h2>Register</h2>
+                        <label for="addhar">farmer addhar no:</label>
+                        <input type="text" name="addhar">
+                        <label for="cropname">cromp name:</label>
+                        <input type="text" name="cropname">
+                        <label for="quantity">quantity:</label>
+                        <input type="text" name="addhar">
+                        
+                        <input type="submit" name="" value="Add"  >
+                        
+                    </form>
+                
+                
+                   <div id="view-farmer">
+                        <div id="search-bar">
+                            <input type="text" >
+                            <img src="static/icons/search.svg" alt="search icon">
+                            <input type="button" value="search">
+                
+                        </div>
+                    </div>
+                        <div id="delete-farmer">
+                            <div id="search-bar">
+                                <input type="text" >
+                                <img src="static/icons/search.svg" alt="search icon">
+                                <input type="button" value="search">
+                    
+                            </div>
+                
+                    </div>
+                    
+                </div>
+                <div id="buyer-functions">
+                    <div id="view-buyer">
+                        <div id="search-bar">
+                            <input type="text" >
+                            <img src="static/icons/search.svg" alt="search icon">
+                            <input type="button" value="search" >
+                
+                        </div>
+            
+                    </div>
+                </div>
+                
+                <div id="crop-functions">
+                    <form action="" id="add-crop">
+                       
+                        <label for="cropname">cromp name:</label>
+                        <input type="text" name="cropname">
+                         
+                        
+                        <input type="submit" name="" value="Add">
+                        
+                    </form>
+                
+                
+                   <div id="view-crop">
+                        <div id="search-bar">
+                            <input type="text" >
+                            <img src="static/icons/search.svg" alt="search icon">
+                            <input type="button" value="search">
+                
+                        </div>
+                    </div>
+                        <div id="delete-crop">
+                            <div id="search-bar">
+                                <input type="text" >
+                                <img src="static/icons/search.svg" alt="search icon">
+                                <input type="button" value="search">
+                    
+                            </div>
+                
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+        <footer></footer>
+    </body>
+    </html>

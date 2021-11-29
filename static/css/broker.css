@@ -1,0 +1,106 @@
+
+
+#left-menu-functions #search-bar :last-child{
+    width: 10%;
+} 
+
+#search-bar :last-child:active,#search-bar :last-child:hover{
+    border:2px solid black;
+    border-radius: 5px;
+    background-color:#469286;
+    color:#fff;
+}
+#left-menu-functions{
+    float: left;
+    width: 70%;
+    display: none;
+    
+    
+}
+#left-menu-functions div {
+   width: 100%;
+}
+#view-farmer,#delete-farmer,#view-buyer,#view-crop,#delete-crop
+{    height: 80%;
+    width:100%;
+    border-radius: 5px;
+    opacity: 0.8;
+    background-color: #469286;
+    margin:3% 10%;
+}
+
+#left-menu-functions div input[type=text]{
+    width: 30%;
+    height: 5%;
+}
+
+#add-farmer,#add-crop{
+    height: auto;
+    width:50%;
+    background-color: #469286;
+    margin: 6% auto;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+#left-menu-functions h2{
+    color:#fff;
+    font-size: 42px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#left-menu-functions form label{
+    font-weight: bold;
+    
+}
+#left-menu-functions form input[type="text"]{
+    width: 90%;
+    margin: 0 0 10px 10px;
+    height: 5%;
+    border:2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+}
+#left-menu-functions form input[type="submit"]
+{
+    width: 50%;
+    margin:10px 23%;
+    height:5%;
+    display: inline-block;
+    font-weight: bold;
+    border: 2px solid #111;
+    border-radius: 10px;
+
+}
+#left-menu-functions form input[type="submit"]:hover
+{
+    box-shadow:1px 1px #111;   
+    background-color:#469286;
+    color: #fff;
+}
+
+
+/*#add-farmer{
+    display: none;
+}
+#view-farmer{
+    display: none;
+}
+#delete-farmer{
+    display: none;
+}
+#view-buyer{
+    display: none;
+    
+}
+#add-crop{
+    display: none;
+}
+#view-crop{
+    display: none;
+}
+#delete-crop{
+    display: none;
+}*/

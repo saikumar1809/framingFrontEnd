@@ -1,0 +1,72 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="static/js/farmer.js"></script>
+        <link rel="stylesheet" href="static/css/header.css">
+        <link rel="stylesheet" href="static/css/left-menu.css">
+        <link rel="stylesheet" href="static\css\farmer.css">
+        <title>Farmer</title>
+    </head>
+    <body>
+        <header>
+            <div id="header-container">
+            <div>
+                <img src="static/icons/crown.svg " alt="crown logo">
+                <h2><span id="first-letter">F</span>ARM<span>KING</span></h2>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">logout</a></li>
+                </ul>
+            </div>
+        </div>
+        </header>
+        <section>
+            
+            <div id="left-menu">
+                    <div>
+                    
+                        <h3>CROP</h3>
+                        <ul>
+                            <li><a href="#" onclick="displayForm(1)">ADD NEW CROP</a></li>
+                            <li><a href="#" onclick="displayForm(2)">VIEW CROPS</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+            </div>
+            
+            <div id="search-bar">
+                <input type="text" >
+                <img src="static/icons/search.svg" alt="search icon">
+                <input type="button" value="search" id="main-search">
+    
+            </div>
+            <div id="left-menu-functions">
+                <div id="crop-functions">
+                    <form action="" id="add-crop">
+                       
+                        <label for="cropname">crop name:</label>
+                        <input type="text" name="cropname">
+                         
+                        
+                        <input type="submit" name="" value="Add" id="button">
+                        
+                    </form>
+                
+                    <div id="view-crop">
+                        <div id="search-bar">
+                            <input type="text" >
+                            <img src="static/icons/search.svg" alt="search icon">
+                            <input type="button" value="search">
+            
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>

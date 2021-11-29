@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="static/js/index.js"></script>
+   <link rel="stylesheet" href="static/css/header.css">
+   <link rel="stylesheet" href="static/css/style.css">
+    <title>homepage</title>
+</head>
+<body>
+        <header>
+            <div id="header-container">
+            <div id="logo">
+                <img src="static/icons/crown.svg " alt="crown logo">
+                <h2><span id="first-letter">F</span>ARM<span>KING</span></h2>
+            </div>
+            <div id="navigation">
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">contact</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        </header>
+        <section>
+            <div id="section-container">
+            <div id="forms">
+                        <form action="" id="login-form">
+                            <h2>login</h2>
+                            <label for="addhar">addhar no:</label>
+                            <input type="text" name="addhar">
+                           
+                            <label for="password">password:</label>
+                            <input type="password" name="password">
+                            <input type="submit" name="" value="login">
+                            <div id="link"><h6>not a user???</h6> <a href="#" onclick="decide(0)">register</a> </div>
+                        </form>
+                        <form class="form form--register">
+                            
+                            <div class="form__group"><label class="form__label" for="name">name</label><input class="form__input" id="name" type="name" required="required" /></div>
+
+
+                            <div class="form__group"><label class="form__label" for="Addhar">Addhar</label><input class="form__input" id="addhar" type="Number" placeholder="you@example.com" required="required" /></div>
+
+
+                            <div class="form__group"><label class="form__label" for="userType">userType</label> <select>
+                                <option value="farmer">farmer</option>
+                                <option value="supplier">supplier</option>
+                                <option value="admin">admin</option>
+
+                            </select>
+                        </div>
+
+                        <div class="form__group"><label class="form__label" for="phoneNumber">phoneNumber</label><input class="form__input" id="phoneNumber" type="Number" placeholder="you@example.com" required="required" /></div>
+
+
+
+                            <div class="form__group ma-bt-md"><label class="form__label" for="password">Password</label><input class="form__input" id="password" type="password" placeholder="••••••••" required="required" minlength="8" /></div>
+                            <div class="form__group ma-bt-md"><label class="form__label" for="cpassword">conformPassword</label><input class="form__input" id="cpassword" type="password" placeholder="••••••••" required="required" minlength="8" /></div>
+                            <div class="form__group"><button class="btn btn--green .register">Register</button></div>
+                        </form>
+                        <form action=""id="register-form">
+                            <h2>register</h2>
+                            <label for="name">name</label>
+                            <input type="text" name="name">
+                            <label for="addhar">addhar</label>
+                            <input type="text" name="addhar">
+                            <label for="registeras">register as</label>
+                            <select>
+                                <option value="farmer">farmer</option>
+                                <option value="supplier">supplier</option>
+                                <option value="admin">admin</option>
+
+                            </select>
+                            
+                            <label for="phoneno">phone no</label>
+                            <input type="Number" name="phoneno">
+                            <label for="password">password</label>
+                            <input type="password" name="password">
+                            <label for="cpassword">conform password</label>
+                            <input type="password" name="cpassword">
+                            <input type="submit" name="" value="register">
+                            <div id="link"><h6>already a user???</h6> <a href="#" onclick="decide(1)">login</a> </div>
+                        </form>
+            </div>
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+</body>
+</html>
